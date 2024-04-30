@@ -1,0 +1,7 @@
+https://github.com/sandeep9813/CA
+
+
+RUN:
+iverilog -o file_tb.vvp file_tb.v
+vvp file_tb.v
+gtkwave
